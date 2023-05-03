@@ -1,25 +1,25 @@
-Welcome to Dew's documentation!
-===================================
+.. image:: logo.svg
+    :width: 480px
+    :alt: Dew
+    :align: center
 
+|
 
-**Dew** is a unique community incubator platform that aims to facilitate the seamless transition of Web2 users to Web3.
+`Dew <https://docs.dew.network/xb1yB1Bdi2PnCb4R1iZL/>`_ is a community incubator and Web3 growth engine. It seeks to bridge the gap between Web2 and Web3 users by providing a Quasi-AMM between users and various on-chain projects. With a secured base of one million users at a low cost, Dew are devleoping a novel Decentralized-Automated-Bribe-System(DABS) in its ecosystem that will incentivize user retention and promote industry-wide growth.
 
-Our community incubator services are designed to help users expand their communities, gain a better understanding of how the Web3 world works, and drive organic growth. By educating onboarded Web2 users, we aim to become a key Web3 growth engine and channel these users into various EVM projects or even shaping their own.
-
-At the core of our platform lies our innovative Decentralized-Automated-Bribe-System-to-Growth (*DABS-to-Growth*) model. This model helps both communities and EVM projects to drive growth and rewards users for their participation and adoption. Our tokenomics leverage *Andre* *Cronje*'s ve(3,3) model, which provides additional benefits to long-term token holders and aligns the interests of our community with the long-term growth of the platform.
-
-It pulls data from the `Dew and Dew DAO <https://docs.dew.network/xb1yB1Bdi2PnCb4R1iZL//>`_
-
-
-
+Non-technical users may prefer the `Resources <https://docs.dew.network/xb1yB1Bdi2PnCb4R1iZL/>`_ section of the main Dew website.
 
 .. note::
 
-   This project is under active development.
+    All code starting with ``$`` is meant to be run on your terminal. Code starting with ``>>>`` is meant to run inside the Brownie console.
 
-Contents
---------
 
-.. toctree::
+Procotol Overview
+=================
 
- 
+Curve can be broadly separated into the following categories:
+
+* :ref:`StableSwap<exchange-overview>`: Exchange contracts and core functionality of the protocol
+* The :ref:`DAO<dao-overview>`: Protocol governance and value accrual
+* The :ref:`Factory<factory-overview>`: Permissionless deployment of Curve metapools
+* The :ref:`Registry<registry-overview>`: Standardized API and on-chain resources to aid 3rd party integrations
